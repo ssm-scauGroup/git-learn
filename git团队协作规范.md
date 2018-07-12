@@ -1,5 +1,21 @@
 # git 团队协作规范
 
+零、前期准备
+
+一、创建开发分支
+
+[二、Fork项目到个人的仓库](#二、Fork项目到个人的仓库)
+
+[三、Clone项目到本地](#三、Clone项目到本地)
+
+[四、和团队项目保持同步](#四、和团队项目保持同步)
+
+[五、push修改到自己的项目上](#五、push修改到自己的项目上)
+
+[六、请求合并到团队项目上](#六、请求合并到团队项目上)
+
+七、团队项目负责人审核及同意合并请求
+
 ## 零、前期准备
 
 ## 一、创建开发分支
@@ -82,6 +98,23 @@ git clone https://github.com/ronething/notes.git myproject
 
 注意，在当前所在分支使用push，会push到与这个分支相关联的远程仓库分支。这里dev分支与origin/dev关联，因此push到GitHub上的dev分支。
 
+![](https://ws1.sinaimg.cn/large/ecb0a9c3gy1ft7liqvsrej20it0lmt9r.jpg)
+
 ## 六、请求合并到团队项目上
+
+首先到你的GitHub上，进入你Fork的仓库里。点击箭头处的Pull request
+
+![](https://ws1.sinaimg.cn/large/ecb0a9c3gy1ft7ljvnsq7j20td0dfmy8.jpg)
+
+下图左边，表示要合并到ssm-scauGroup/git-learn项目的dev分支。
+下图右边，表示要从自己仓库的dev分支发起合并请求。
+
+![](https://ws1.sinaimg.cn/large/ecb0a9c3gy1ft7lm3k32zj20u70hv400.jpg)
+
+点击`Create pull request`就可以发送合并请求了。
+
+然后就会显示如下界面。接着就等着负责人`merge pull request` 了。
+
+![](https://ws1.sinaimg.cn/large/ecb0a9c3gy1ft7lrgvuk7j20rz0ck75l.jpg)
 
 ## 七、团队项目负责人审核及同意合并请求
